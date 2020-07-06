@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClientWSMeteo", "ConsoleAppClientWSMeteo\ConsoleAppClientWSMeteo.csproj", "{DB023C14-273A-4543-8458-F8FB2F342236}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppRappelTasketDelegate", "ConsoleAppRappelTasketDelegate\ConsoleAppRappelTasketDelegate.csproj", "{73548709-1E11-4B1B-A926-DB988C96758B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTachesAsynchrone", "ConsoleAppTachesAsynchrone\ConsoleAppTachesAsynchrone.csproj", "{8779B6FB-D72D-4308-BF1C-A2CAEB6F3004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DB023C14-273A-4543-8458-F8FB2F342236}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB023C14-273A-4543-8458-F8FB2F342236}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB023C14-273A-4543-8458-F8FB2F342236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73548709-1E11-4B1B-A926-DB988C96758B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73548709-1E11-4B1B-A926-DB988C96758B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73548709-1E11-4B1B-A926-DB988C96758B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73548709-1E11-4B1B-A926-DB988C96758B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8779B6FB-D72D-4308-BF1C-A2CAEB6F3004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8779B6FB-D72D-4308-BF1C-A2CAEB6F3004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8779B6FB-D72D-4308-BF1C-A2CAEB6F3004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8779B6FB-D72D-4308-BF1C-A2CAEB6F3004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

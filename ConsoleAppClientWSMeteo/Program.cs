@@ -1,4 +1,5 @@
 ﻿using ConsoleAppClientWSMeteo.ServiceReference1;
+using ConsoleAppClientWSMeteo.ServiceReference2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,19 @@ namespace ConsoleAppClientWSMeteo
         static void Main(string[] args)
         {
             Console.WriteLine("Début de traitement");
+            Calculator();
             InfoMeteo1();
             InfoMeteo2();
             Console.WriteLine("Fin de traitement");
             Console.ReadKey();
+        }
+
+        private static void Calculator()
+        {
+            CalculatorSoapClient proxy = new CalculatorSoapClient();
+            Console.WriteLine(proxy.Add(15, 16));
+            Console.WriteLine("Fin de l'opération");
+            proxy.Close();
         }
 
         private static void InfoMeteo2()
