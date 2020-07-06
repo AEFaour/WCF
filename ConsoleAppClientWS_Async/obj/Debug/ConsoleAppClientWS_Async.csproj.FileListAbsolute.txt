@@ -1,0 +1,7 @@
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\bin\Debug\ConsoleAppClientWS_Async.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\bin\Debug\ConsoleAppClientWS_Async.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\bin\Debug\ConsoleAppClientWS_Async.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\obj\Debug\ConsoleAppClientWS_Async.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\obj\Debug\ConsoleAppClientWS_Async.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\obj\Debug\ConsoleAppClientWS_Async.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWS_Async\obj\Debug\ConsoleAppClientWS_Async.pdb
