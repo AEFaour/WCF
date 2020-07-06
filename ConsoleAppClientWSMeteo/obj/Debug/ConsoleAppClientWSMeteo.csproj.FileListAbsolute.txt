@@ -1,0 +1,7 @@
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\bin\Debug\ConsoleAppClientWSMeteo.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\bin\Debug\ConsoleAppClientWSMeteo.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\bin\Debug\ConsoleAppClientWSMeteo.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\obj\Debug\ConsoleAppClientWSMeteo.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\obj\Debug\ConsoleAppClientWSMeteo.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\obj\Debug\ConsoleAppClientWSMeteo.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientWSMeteo\obj\Debug\ConsoleAppClientWSMeteo.pdb

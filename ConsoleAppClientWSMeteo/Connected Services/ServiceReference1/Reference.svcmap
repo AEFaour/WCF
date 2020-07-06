@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8866476c-5705-419b-8b6b-bd443b06ed46" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.meteowcfservice.lab3il.fr/meteo3il_2.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="meteo3il_2.xsd" MetadataType="Schema" ID="d1e40e18-265e-49b6-8e3b-f6c7943059b6" SourceId="1" SourceUrl="http://www.meteowcfservice.lab3il.fr/meteo3il_2.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="74168b9f-b719-4602-a1c8-cf0c884e8bf1" SourceId="1" SourceUrl="http://www.meteowcfservice.lab3il.fr/meteo3il_2.svc?wsdl" />
+    <MetadataFile FileName="meteo3il_21.xsd" MetadataType="Schema" ID="b2f3a8e1-964e-401e-ad16-108c61c1e6b2" SourceId="1" SourceUrl="http://www.meteowcfservice.lab3il.fr/meteo3il_2.svc?xsd=xsd0" />
+    <MetadataFile FileName="meteo3il_22.xsd" MetadataType="Schema" ID="ea329424-ed78-47c7-8a00-8a2c543a5a6e" SourceId="1" SourceUrl="http://www.meteowcfservice.lab3il.fr/meteo3il_2.svc?xsd=xsd1" />
+    <MetadataFile FileName="meteo3il_2.disco" MetadataType="Disco" ID="be81ab77-a735-4d59-b2be-040719f10eb4" SourceId="1" SourceUrl="http://www.meteowcfservice.lab3il.fr/meteo3il_2.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
