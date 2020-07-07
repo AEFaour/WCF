@@ -5,12 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppWebServiceMeteo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FFBF5757">
+        Title="MainWindow" Height="450" Width="800" Background="#FFBF5757" FontFamily="Times New Roman" FontSize="16">
     <Grid>
-        <ComboBox x:Name="cbbMeteo" HorizontalAlignment="Left" Height="35" Margin="102,98,0,0" VerticalAlignment="Top" Width="208" SelectionChanged="ChoixMeteo_Select" />
-        <TextBox x:Name="textDataVal" HorizontalAlignment="Left" Margin="436,52,0,329" Width="330" Height="50"/>
-        <TextBox x:Name="textDescVal" HorizontalAlignment="Left" Margin="436,205,0,177" Width="330" Height="50"/>
-        <TextBox x:Name="textValRes"  HorizontalAlignment="Left" Margin="436,132,0,251" Width="330" Height="50"/>
+        <ComboBox x:Name="cbbMeteo" HorizontalAlignment="Left" Height="35" Margin="182,29,0,0" VerticalAlignment="Top" Width="208" SelectionChanged="ChoixMeteo_Select" />
+        <TextBox x:Name="textDataVal" HorizontalAlignment="Left" Margin="182,109,0,260" Width="330" Height="50"/>
+        <TextBox x:Name="textDescVal" HorizontalAlignment="Left" Margin="182,205,0,164" Width="330" Height="50"/>
+        <TextBox x:Name="textValRes"  HorizontalAlignment="Left" Margin="182,309,0,60" Width="330" Height="50"/>
+        <Label Content="Choisir" HorizontalAlignment="Left" Height="27" Margin="42,37,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Date" HorizontalAlignment="Left" Height="27" Margin="42,120,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item" HorizontalAlignment="Left" Height="27" Margin="42,228,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Resultat" HorizontalAlignment="Left" Height="27" Margin="42,332,0,0" VerticalAlignment="Top" Width="120"/>
 
         <!--<ListView HorizontalAlignment="Left" Height="243" Margin="0,176,0,0" VerticalAlignment="Top" Width="792" Background="#FFE46742">
 
