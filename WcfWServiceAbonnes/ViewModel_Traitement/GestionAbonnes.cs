@@ -59,7 +59,6 @@ namespace WcfWServiceAbonnes.ViewModel_Traitement
             Abonne AbonneASuprimer = dtc.Abonnes.Where(x => x.Numero.Equals(id)).FirstOrDefault();
             if (AbonneASuprimer == null) return false;
 
-
             dtc.Abonnes.Remove(AbonneASuprimer);
             int _ret = dtc.SaveChanges();
             return (_ret > 0);

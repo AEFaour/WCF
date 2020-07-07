@@ -1,0 +1,7 @@
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\bin\Debug\ConsoleAppClientAbonne.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\bin\Debug\ConsoleAppClientAbonne.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\bin\Debug\ConsoleAppClientAbonne.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\obj\Debug\ConsoleAppClientAbonne.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\obj\Debug\ConsoleAppClientAbonne.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\obj\Debug\ConsoleAppClientAbonne.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppClientAbonne\obj\Debug\ConsoleAppClientAbonne.pdb
