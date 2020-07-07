@@ -1,0 +1,13 @@
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\WcfWServiceAbonnes.dll.config
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\WcfWServiceAbonnes.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\WcfWServiceAbonnes.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\EntityFramework.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\EntityFramework.SqlServer.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\EntityFramework.xml
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\EntityFramework.SqlServer.xml
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\bin\fr\EntityFramework.resources.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\obj\Debug\WcfWServiceAbonnes.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\obj\Debug\WcfWServiceAbonnes.csproj.CopyComplete
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\obj\Debug\WcfWServiceAbonnes.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\obj\Debug\WcfWServiceAbonnes.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WcfWServiceAbonnes\obj\Debug\WcfWServiceAbonnes.csprojAssemblyReference.cache

@@ -1,7 +1,7 @@
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\bin\Debug\ConsoleAppInterAgitAvecPremierWS.exe.config
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\bin\Debug\ConsoleAppInterAgitAvecPremierWS.exe
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\bin\Debug\ConsoleAppInterAgitAvecPremierWS.pdb
-C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\obj\Debug\ConsoleAppInterAgitAvecPremierWS.csprojAssemblyReference.cache
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\obj\Debug\ConsoleAppInterAgitAvecPremierWS.csproj.CoreCompileInputs.cache
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\obj\Debug\ConsoleAppInterAgitAvecPremierWS.exe
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\obj\Debug\ConsoleAppInterAgitAvecPremierWS.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppInterAgitAvecPremierWS\obj\Debug\ConsoleAppInterAgitAvecPremierWS.csprojAssemblyReference.cache

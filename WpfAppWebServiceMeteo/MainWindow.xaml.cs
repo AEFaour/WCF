@@ -52,16 +52,16 @@ namespace WpfAppWebServiceMeteo
                 string[] _cellules = lignes[i].Split('=');
                 cbbMeteo.Items.Add(_cellules[0]);
             }
-            
+
         }
 
         private void ChoixMeteo_Select(object sender, SelectionChangedEventArgs e)
         {
-            int ChoixSelect = cbbMeteo.SelectedIndex;
+            int ChoixSelect = cbbMeteo.SelectedIndex + 1;
             Service1Client service1Client = new Service1Client();
             string _dateVal;
             string _descVal;
-            string _res = service1Client.Get_Value(ChoixSelect + 1, out _dateVal, out _descVal);
+            string _res = service1Client.Get_Value(ChoixSelect, out _dateVal, out _descVal);
 
             textDataVal.Text = _dateVal;
             textDescVal.Text = _descVal;
