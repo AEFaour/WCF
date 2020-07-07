@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAppWebServiceMeteo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppWebServiceMeteo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FFBF5757">
+    <Grid>
+        <ComboBox x:Name="cbbMeteo" HorizontalAlignment="Left" Height="35" Margin="102,98,0,0" VerticalAlignment="Top" Width="208" SelectionChanged="ChoixMeteo_Select" />
+        <TextBox x:Name="textDataVal" HorizontalAlignment="Left" Margin="436,52,0,329" Width="330" Height="50"/>
+        <TextBox x:Name="textDescVal" HorizontalAlignment="Left" Margin="436,205,0,177" Width="330" Height="50"/>
+        <TextBox x:Name="textValRes"  HorizontalAlignment="Left" Margin="436,132,0,251" Width="330" Height="50"/>
+
+        <!--<ListView HorizontalAlignment="Left" Height="243" Margin="0,176,0,0" VerticalAlignment="Top" Width="792" Background="#FFE46742">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn x:Name="textDataVal"  Header="Data" Width="100"/>
+                    <GridViewColumn x:Name="textDescVal"  Header="Desc" Width="100"/>
+                    <GridViewColumn x:Name="textValRes"  Header="Resultat" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>-->
+
+
+    </Grid>
+</Window>

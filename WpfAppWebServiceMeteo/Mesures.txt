@@ -1,0 +1,9 @@
+﻿1=Température °C
+2=Pression hPa
+3=HumiditéRelative %
+4=VitesseVent km/h
+5=DirectionVent 0à360°
+6=DirectionVentEnLettre NNW WSW °
+7=CumulPrecipitationJour en mm
+8=TempératureRessentie °C
+9=TempératurePointDeRosée °C

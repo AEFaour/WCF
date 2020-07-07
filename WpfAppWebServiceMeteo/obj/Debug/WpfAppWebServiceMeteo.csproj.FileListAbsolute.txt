@@ -1,0 +1,15 @@
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\bin\Debug\WpfAppWebServiceMeteo.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\bin\Debug\WpfAppWebServiceMeteo.exe
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\bin\Debug\WpfAppWebServiceMeteo.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\MainWindow.g.cs
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\App.g.cs
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo_MarkupCompile.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo_MarkupCompile.lref
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\MainWindow.baml
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.g.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.Properties.Resources.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.csproj.GenerateResource.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.exe
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppWebServiceMeteo\obj\Debug\WpfAppWebServiceMeteo.pdb
