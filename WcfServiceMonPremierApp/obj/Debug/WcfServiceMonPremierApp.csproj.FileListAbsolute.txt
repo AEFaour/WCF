@@ -1,6 +1,7 @@
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\bin\WcfServiceMonPremierApp.dll.config
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\bin\WcfServiceMonPremierApp.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\bin\WcfServiceMonPremierApp.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\obj\Debug\WcfServiceMonPremierApp.csprojAssemblyReference.cache
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\obj\Debug\WcfServiceMonPremierApp.csproj.CoreCompileInputs.cache
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\obj\Debug\WcfServiceMonPremierApp.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceMonPremierApp\obj\Debug\WcfServiceMonPremierApp.pdb

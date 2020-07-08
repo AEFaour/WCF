@@ -1,0 +1,15 @@
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\bin\Debug\WpfAppGestionGarageManagement.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\bin\Debug\WpfAppGestionGarageManagement.exe
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\bin\Debug\WpfAppGestionGarageManagement.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\MainWindow.g.cs
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\App.g.cs
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement_MarkupCompile.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement_MarkupCompile.lref
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\MainWindow.baml
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.g.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.Properties.Resources.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.csproj.GenerateResource.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.exe
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppGestionGarageManagement\obj\Debug\WpfAppGestionGarageManagement.pdb
