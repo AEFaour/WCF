@@ -58,6 +58,11 @@ namespace WcfWServiceAbonnes
             ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
         bool ModifAbonneJson(Abonne abonne);
+        // Api REST pour rechercher par critere
+        //le critere est un sting --> type primitif alors on peut l'envoyer par GET
+        [WebGet(UriTemplate = "/Recherche/{critere}/Abonnes/", ResponseFormat = WebMessageFormat.Json)]
+        [OperationContract]
+        List<Abonne> RechercheParCriterJson(string critere);
 
     }
 

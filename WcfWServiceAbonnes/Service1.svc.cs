@@ -60,6 +60,11 @@ namespace WcfWServiceAbonnes
             return GestionAbonnes.RechercheParCritere(critere);
         }
 
+        public List<Abonne> RechercheParCriterJson(string critere)
+        {
+            return GestionAbonnes.RechercheParCritere(critere);
+        }
+
         public bool SuppAbonneById(int id)
         {
             return GestionAbonnes.SuppAbonneById(id);
