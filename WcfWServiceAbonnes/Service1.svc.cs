@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Syndication;
 using System.ServiceModel.Web;
 using System.Text;
 using WcfWServiceAbonnes.Model;
@@ -19,12 +20,37 @@ namespace WcfWServiceAbonnes
             return GestionAbonnes.AjoutAbonne(abonne);
         }
 
+        public int AjoutAbonneJson(Abonne abonne)
+        {
+            return GestionAbonnes.AjoutAbonne(abonne);
+        }
+
         public List<Abonne> ListAbonnes()
         {
             return GestionAbonnes.ListAbonnes();
         }
 
+        public List<Abonne> ListeAbonnesJson()
+        {
+            return GestionAbonnes.ListAbonnes();
+        }
+
+        public Rss20FeedFormatter ListeAbonnesRSS()
+        {
+            return GestionAbonnes.ListeAbonnesRSS();
+        }
+
+        public List<Abonne> ListeAbonnesXML()
+        {
+            return GestionAbonnes.ListAbonnes();
+        }
+
         public bool ModifAbonne(Abonne abonne)
+        {
+            return GestionAbonnes.ModifAbonne(abonne);
+        }
+
+        public bool ModifAbonneJson(Abonne abonne)
         {
             return GestionAbonnes.ModifAbonne(abonne);
         }

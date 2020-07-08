@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Syndication;
 using System.ServiceModel.Web;
 using System.Text;
 using WcfWServiceAbonnes.Model;
@@ -24,6 +25,39 @@ namespace WcfWServiceAbonnes
         [OperationContract]
         List<Abonne> RechercheParCritere(string critere);
 
+        // API - REST : Liste des abonnés format Json
+        [WebGet(UriTemplate = "/ListeJson/", ResponseFormat = WebMessageFormat.Json)]
+        [OperationContract]
+        List<Abonne> ListeAbonnesJson();
+        // Pour indiquer qu'on va utiliser des acces Web pour récupérer les listes
+        // Il faut modifier les comportements -behaviers - au niveau du fichier WebConfig 
+        // Api - Rest : Liste des abonnés au format XML
+        // C'est le format par defaut --> pas besoin de spécifier le paraméter ResponseFormat
+        [WebGet(UriTemplate = "/ListeXml/")]
+        [OperationContract]
+        List<Abonne> ListeAbonnesXML();
+        // API - REST : Liste des abonnés format RSS
+        // Utiliser la classe Syndication du ServiceModel -> qui transforme la liste en RSS
+
+        [WebGet(UriTemplate = "/ListeRss/")]
+        [OperationContract]
+        Rss20FeedFormatter ListeAbonnesRSS();
+        //API REST pour ajouter un abonné
+        // Abonne est un objet : type complexe ne peut pas passer par Get(via l'URL), on utilise WebInvoke qui permet de faire
+        // un Post
+        // le POST permet de l'envoyer le'abonne dans le body
+        [WebInvoke(UriTemplate = "/AjoutAbonne/", Method = "POST",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json)]
+        [OperationContract]
+        int AjoutAbonneJson(Abonne abonne);
+
+        // Api REST pour modifier un abonné
+        [WebInvoke(UriTemplate = "/ModifAbonne/", Method = "POST",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json)]
+        [OperationContract]
+        bool ModifAbonneJson(Abonne abonne);
 
     }
 

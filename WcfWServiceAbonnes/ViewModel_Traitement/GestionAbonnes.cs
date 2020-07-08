@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
+using System.ServiceModel.Syndication;
 using System.Web;
 using WcfWServiceAbonnes.Model;
 
@@ -41,6 +42,22 @@ namespace WcfWServiceAbonnes.ViewModel_Traitement
 
             int i = dtc.SaveChanges();
             return (i > 0);
+        }
+
+        public static Rss20FeedFormatter ListeAbonnesRSS()
+        {
+            // 1- Récupérer la liste des abonnés sous forme de string
+            var _listeA = GestionAbonnes.ListAbonnes().Select(x => x.Numero + " " + x.Nom + " " + x.Mail);
+            // 2- On convertie la Liste en Syndication Item
+            var _res = _listeA.Select(x => new SyndicationItem(x, " est inscrit à ", new Uri("http://localhost.com")));
+
+            // 3-  utliser cette liste pour nourir la liste de syndication
+            SyndicationFeed syndicationFeed = new SyndicationFeed(_res);
+
+            // 4 - Format la liste
+            syndicationFeed.Title = new TextSyndicationContent("Liste des abonnés :");
+            Rss20FeedFormatter rff = new Rss20FeedFormatter(syndicationFeed);
+            return rff;
         }
 
         public static List<Abonne> RechercheParCritere(string critere)
