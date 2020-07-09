@@ -4,29 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppWebServiceMeteo"
+        xmlns:viewM="clr-namespace:WpfAppWebServiceMeteo.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FFBF5757" FontFamily="Times New Roman" FontSize="16">
+        Title="MainWindow" Height="450" Width="800" Background="#FFBF5757" FontFamily="Times New Roman" FontSize="18">
+    <!--<Window.DataContext>
+        <viewM:GestionMeteo/>
+    </Window.DataContext>-->
     <Grid>
-        <ComboBox x:Name="cbbMeteo" HorizontalAlignment="Left" Height="35" Margin="182,29,0,0" VerticalAlignment="Top" Width="208" SelectionChanged="ChoixMeteo_Select" />
-        <TextBox x:Name="textDataVal" HorizontalAlignment="Left" Margin="182,109,0,260" Width="330" Height="50"/>
-        <TextBox x:Name="textDescVal" HorizontalAlignment="Left" Margin="182,205,0,164" Width="330" Height="50"/>
-        <TextBox x:Name="textValRes"  HorizontalAlignment="Left" Margin="182,309,0,60" Width="330" Height="50"/>
-        <Label Content="Choisir" HorizontalAlignment="Left" Height="27" Margin="42,37,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Date" HorizontalAlignment="Left" Height="27" Margin="42,120,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Item" HorizontalAlignment="Left" Height="27" Margin="42,228,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Resultat" HorizontalAlignment="Left" Height="27" Margin="42,332,0,0" VerticalAlignment="Top" Width="120"/>
+        <!--<ComboBox x:Name="cbbMeteo" HorizontalAlignment="Left" Height="46" Margin="366,18,0,0" VerticalAlignment="Top"
+                  Width="330" ItemsSource="{Binding Path=Meteos}"
+                  DisplayMemberPath="Libelle">
 
-        <!--<ListView HorizontalAlignment="Left" Height="243" Margin="0,176,0,0" VerticalAlignment="Top" Width="792" Background="#FFE46742">
-
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn x:Name="textDataVal"  Header="Data" Width="100"/>
-                    <GridViewColumn x:Name="textDescVal"  Header="Desc" Width="100"/>
-                    <GridViewColumn x:Name="textValRes"  Header="Resultat" Width="100"/>
-                </GridView>
-            </ListView.View>
-        </ListView>-->
-
+        </ComboBox>-->
+        <TextBox x:Name="textDataVal" HorizontalAlignment="Left" Margin="366,108,0,261" Width="330" Height="50"/>
+        <TextBox x:Name="textDescVal" HorizontalAlignment="Left" Margin="366,205,0,164" Width="330" Height="50"/>
+        <TextBox x:Name="textValRes"  HorizontalAlignment="Left" Margin="366,309,0,60" Width="330" Height="50"/>
+        <Label Content="Choisir" HorizontalAlignment="Left" Height="27" Margin="127,37,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Date" HorizontalAlignment="Left" Height="27" Margin="127,120,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item" HorizontalAlignment="Left" Height="27" Margin="127,228,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Resultat" HorizontalAlignment="Left" Height="27" Margin="127,321,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox ItemsSource="{Binding Path=Meteos}" DisplayMemberPath="Libelle" HorizontalAlignment="Left" Height="52" Margin="366,24,0,0" VerticalAlignment="Top" Width="330"/>
 
     </Grid>
 </Window>

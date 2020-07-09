@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 using System.Configuration;
 using WpfAppWebServiceMeteo.Model;
 using WpfAppWebServiceMeteo.ServiceReference1;
+using WpfAppWebServiceMeteo.ViewModel;
 
 namespace WpfAppWebServiceMeteo
 {
@@ -24,48 +25,16 @@ namespace WpfAppWebServiceMeteo
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        GestionMeteo gestionMeteo = new GestionMeteo();
 
         public MainWindow()
         {
             InitializeComponent();
 
-            ChargerInfoMeteo();
-        }
+            DataContext = gestionMeteo;
 
-        private void ChargerInfoMeteo()
-        {
-            // pour récupérer une info à partir du app.config, on utilise la configuarationMangager
-            string _nomfic = ConfigurationManager.AppSettings["fic"];
-            StreamReader stream = new StreamReader(_nomfic, Encoding.Default);
-            string contenu = stream.ReadToEnd();
-            string[] lignes = contenu.Split('\n');
-            //foreach (var ligne in lignes)
-            //{
-            //    string[] _cellules = ligne.Split('=');
-            //    cbbMeteo.Items.Add(_cellules[0]);
-
-
-            //}
-            for (int i = 0; i < lignes.Length; i++)
-            {
-                string[] _cellules = lignes[i].Split('=');
-                cbbMeteo.Items.Add(_cellules[0]);
-            }
 
         }
 
-        private void ChoixMeteo_Select(object sender, SelectionChangedEventArgs e)
-        {
-            int ChoixSelect = cbbMeteo.SelectedIndex + 1;
-            Service1Client service1Client = new Service1Client();
-            string _dateVal;
-            string _descVal;
-            string _res = service1Client.Get_Value(ChoixSelect, out _dateVal, out _descVal);
-
-            textDataVal.Text = _dateVal;
-            textDescVal.Text = _descVal;
-            textValRes.Text = _res;
-        }
     }
 }

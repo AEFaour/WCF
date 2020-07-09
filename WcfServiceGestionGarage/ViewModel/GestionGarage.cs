@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel.Syndication;
 using System.Web;
 using WcfServiceGestionGarage.Model;
 
@@ -39,6 +40,31 @@ namespace WcfServiceGestionGarage.ViewModel
 
             int i = dtc.SaveChanges();
             return (i > 0);
+        }
+
+        internal static Rss20FeedFormatter AjoutVoitureRSS()
+        {
+            // 1- Récupérer la liste des voitures sous forme de string
+            var _listeA = GestionGarage.ListVoitures().Select(x => x.Numero + " " + x.Matricule + " "
+            + x.NumeroChassis + " " + x.Marque + " " + x.Nom + " " + x.Matricule + " ");
+            // 2- On convertie la Liste en Syndication Item
+            var _res = _listeA.Select(x => new SyndicationItem(x, " est classifé en tant que ", new Uri("http://localhost.com")));
+
+            // 3-  utliser cette liste pour nourir la liste de syndication
+            SyndicationFeed syndicationFeed = new SyndicationFeed(_res);
+
+            // 4 - Format la liste
+            syndicationFeed.Title = new TextSyndicationContent("Liste des voitures :");
+            Rss20FeedFormatter rff = new Rss20FeedFormatter(syndicationFeed);
+            return rff;
+        }
+
+        public static Voiture RechercheParId(int id)
+        {
+            Voiture voitureRecherchee = dtc.Voitures.Where(x => x.Numero.Equals(id)).FirstOrDefault();
+            //dtc.Voitures.Find(voitureRecherchee);
+            //int _res = dtc.SaveChanges();
+            return voitureRecherchee;
         }
 
         public static List<Voiture> RechercheParCritere(string critere)

@@ -5,6 +5,8 @@
       <xsd:import schemaLocation="http://localhost:90/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://localhost:90/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xsd:import schemaLocation="http://localhost:90/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceGestionGarage.Model" />
+      <xsd:import schemaLocation="http://localhost:90/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.ServiceModel.Syndication" />
+      <xsd:import schemaLocation="http://localhost:90/Service1.svc?xsd=xsd4" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IService1_AjoutVoitre_InputMessage">
@@ -37,6 +39,48 @@
   <wsdl:message name="IService1_RechercheParCritere_OutputMessage">
     <wsdl:part name="parameters" element="tns:RechercheParCritereResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_ListVoituresJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresJson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListVoituresJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListVoituresXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresXML" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListVoituresXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListeVoituresRSS_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListeVoituresRSS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListeVoituresRSS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListeVoituresRSSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AjoutVoitureJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutVoitureJson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AjoutVoitureJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutVoitureJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModifVoitureJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifVoitureJson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModifVoitureJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifVoitureJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RechercheVoitureParCriterJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechercheVoitureParCriterJson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RechercheVoitureParCriterJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechercheVoitureParCriterJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RechercherVoitureParIdJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechercherVoitureParIdJson" />
+  </wsdl:message>
+  <wsdl:message name="IService1_RechercherVoitureParIdJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechercherVoitureParIdJsonResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="AjoutVoitre">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/AjoutVoitre" message="tns:IService1_AjoutVoitre_InputMessage" />
@@ -58,58 +102,34 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/RechercheParCritere" message="tns:IService1_RechercheParCritere_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/RechercheParCritereResponse" message="tns:IService1_RechercheParCritere_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="ListVoituresJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListVoituresJson" message="tns:IService1_ListVoituresJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListVoituresJsonResponse" message="tns:IService1_ListVoituresJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListVoituresXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListVoituresXML" message="tns:IService1_ListVoituresXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListVoituresXMLResponse" message="tns:IService1_ListVoituresXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListeVoituresRSS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListeVoituresRSS" message="tns:IService1_ListeVoituresRSS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListeVoituresRSSResponse" message="tns:IService1_ListeVoituresRSS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AjoutVoitureJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AjoutVoitureJson" message="tns:IService1_AjoutVoitureJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AjoutVoitureJsonResponse" message="tns:IService1_AjoutVoitureJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifVoitureJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModifVoitureJson" message="tns:IService1_ModifVoitureJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModifVoitureJsonResponse" message="tns:IService1_ModifVoitureJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechercheVoitureParCriterJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RechercheVoitureParCriterJson" message="tns:IService1_RechercheVoitureParCriterJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RechercheVoitureParCriterJsonResponse" message="tns:IService1_RechercheVoitureParCriterJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechercherVoitureParIdJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/RechercherVoitureParIdJson" message="tns:IService1_RechercherVoitureParIdJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RechercherVoitureParIdJsonResponse" message="tns:IService1_RechercherVoitureParIdJson_OutputMessage" />
+    </wsdl:operation>
   </wsdl:portType>
-  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
-    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="AjoutVoitre">
-      <soap:operation soapAction="http://tempuri.org/IService1/AjoutVoitre" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SuppVoitureById">
-      <soap:operation soapAction="http://tempuri.org/IService1/SuppVoitureById" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ModifVoiture">
-      <soap:operation soapAction="http://tempuri.org/IService1/ModifVoiture" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="ListVoitures">
-      <soap:operation soapAction="http://tempuri.org/IService1/ListVoitures" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="RechercheParCritere">
-      <soap:operation soapAction="http://tempuri.org/IService1/RechercheParCritere" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-  </wsdl:binding>
-  <wsdl:service name="Service1">
-    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
-      <soap:address location="http://localhost:90/Service1.svc" />
-    </wsdl:port>
-  </wsdl:service>
+  <wsdl:service name="Service1" />
 </wsdl:definitions>

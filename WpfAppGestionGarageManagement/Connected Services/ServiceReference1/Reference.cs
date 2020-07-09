@@ -171,6 +171,48 @@ namespace WpfAppGestionGarageManagement.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheParCritere", ReplyAction="http://tempuri.org/IService1/RechercheParCritereResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> RechercheParCritereAsync(string critere);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresJson", ReplyAction="http://tempuri.org/IService1/ListVoituresJsonResponse")]
+        WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoituresJson();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresJson", ReplyAction="http://tempuri.org/IService1/ListVoituresJsonResponse")]
+        System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresJsonAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresXML", ReplyAction="http://tempuri.org/IService1/ListVoituresXMLResponse")]
+        WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoituresXML();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresXML", ReplyAction="http://tempuri.org/IService1/ListVoituresXMLResponse")]
+        System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresXMLAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListeVoituresRSS", ReplyAction="http://tempuri.org/IService1/ListeVoituresRSSResponse")]
+        System.ServiceModel.Syndication.Rss20FeedFormatter ListeVoituresRSS();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListeVoituresRSS", ReplyAction="http://tempuri.org/IService1/ListeVoituresRSSResponse")]
+        System.Threading.Tasks.Task<System.ServiceModel.Syndication.Rss20FeedFormatter> ListeVoituresRSSAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/AjoutVoitureJson", ReplyAction="http://tempuri.org/IService1/AjoutVoitureJsonResponse")]
+        int AjoutVoitureJson(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/AjoutVoitureJson", ReplyAction="http://tempuri.org/IService1/AjoutVoitureJsonResponse")]
+        System.Threading.Tasks.Task<int> AjoutVoitureJsonAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModifVoitureJson", ReplyAction="http://tempuri.org/IService1/ModifVoitureJsonResponse")]
+        bool ModifVoitureJson(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModifVoitureJson", ReplyAction="http://tempuri.org/IService1/ModifVoitureJsonResponse")]
+        System.Threading.Tasks.Task<bool> ModifVoitureJsonAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheVoitureParCriterJson", ReplyAction="http://tempuri.org/IService1/RechercheVoitureParCriterJsonResponse")]
+        WpfAppGestionGarageManagement.ServiceReference1.Voiture[] RechercheVoitureParCriterJson(string critere);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheVoitureParCriterJson", ReplyAction="http://tempuri.org/IService1/RechercheVoitureParCriterJsonResponse")]
+        System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> RechercheVoitureParCriterJsonAsync(string critere);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercherVoitureParIdJson", ReplyAction="http://tempuri.org/IService1/RechercherVoitureParIdJsonResponse")]
+        WpfAppGestionGarageManagement.ServiceReference1.Voiture RechercherVoitureParIdJson(string id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercherVoitureParIdJson", ReplyAction="http://tempuri.org/IService1/RechercherVoitureParIdJsonResponse")]
+        System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture> RechercherVoitureParIdJsonAsync(string id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -238,6 +280,62 @@ namespace WpfAppGestionGarageManagement.ServiceReference1 {
         
         public System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> RechercheParCritereAsync(string critere) {
             return base.Channel.RechercheParCritereAsync(critere);
+        }
+        
+        public WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoituresJson() {
+            return base.Channel.ListVoituresJson();
+        }
+        
+        public System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresJsonAsync() {
+            return base.Channel.ListVoituresJsonAsync();
+        }
+        
+        public WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoituresXML() {
+            return base.Channel.ListVoituresXML();
+        }
+        
+        public System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresXMLAsync() {
+            return base.Channel.ListVoituresXMLAsync();
+        }
+        
+        public System.ServiceModel.Syndication.Rss20FeedFormatter ListeVoituresRSS() {
+            return base.Channel.ListeVoituresRSS();
+        }
+        
+        public System.Threading.Tasks.Task<System.ServiceModel.Syndication.Rss20FeedFormatter> ListeVoituresRSSAsync() {
+            return base.Channel.ListeVoituresRSSAsync();
+        }
+        
+        public int AjoutVoitureJson(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture) {
+            return base.Channel.AjoutVoitureJson(voiture);
+        }
+        
+        public System.Threading.Tasks.Task<int> AjoutVoitureJsonAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture) {
+            return base.Channel.AjoutVoitureJsonAsync(voiture);
+        }
+        
+        public bool ModifVoitureJson(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture) {
+            return base.Channel.ModifVoitureJson(voiture);
+        }
+        
+        public System.Threading.Tasks.Task<bool> ModifVoitureJsonAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture) {
+            return base.Channel.ModifVoitureJsonAsync(voiture);
+        }
+        
+        public WpfAppGestionGarageManagement.ServiceReference1.Voiture[] RechercheVoitureParCriterJson(string critere) {
+            return base.Channel.RechercheVoitureParCriterJson(critere);
+        }
+        
+        public System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> RechercheVoitureParCriterJsonAsync(string critere) {
+            return base.Channel.RechercheVoitureParCriterJsonAsync(critere);
+        }
+        
+        public WpfAppGestionGarageManagement.ServiceReference1.Voiture RechercherVoitureParIdJson(string id) {
+            return base.Channel.RechercherVoitureParIdJson(id);
+        }
+        
+        public System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture> RechercherVoitureParIdJsonAsync(string id) {
+            return base.Channel.RechercherVoitureParIdJsonAsync(id);
         }
     }
 }

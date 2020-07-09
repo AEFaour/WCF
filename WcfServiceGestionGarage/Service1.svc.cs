@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Syndication;
 using System.ServiceModel.Web;
 using System.Text;
 using WcfServiceGestionGarage.Model;
@@ -19,7 +20,27 @@ namespace WcfServiceGestionGarage
             return GestionGarage.AjoutVoiture(voiture);
         }
 
+        public int AjoutVoitureJson(Voiture voiture)
+        {
+            return GestionGarage.AjoutVoiture(voiture);
+        }
+
+        public Rss20FeedFormatter ListeVoituresRSS()
+        {
+            return GestionGarage.AjoutVoitureRSS();
+        }
+
         public List<Voiture> ListVoitures()
+        {
+            return GestionGarage.ListVoitures();
+        }
+
+        public List<Voiture> ListVoituresJson()
+        {
+            return GestionGarage.ListVoitures();
+        }
+
+        public List<Voiture> ListVoituresXML()
         {
             return GestionGarage.ListVoitures();
         }
@@ -29,7 +50,32 @@ namespace WcfServiceGestionGarage
             return GestionGarage.ModifVoiture(voiture);
         }
 
+        public bool ModifVoitureJson(Voiture voiture)
+        {
+            return GestionGarage.ModifVoiture(voiture);
+        }
+
         public List<Voiture> RechercheParCritere(string critere)
+        {
+            return GestionGarage.RechercheParCritere(critere);
+        }
+
+        public Voiture RechercherVoitureParIdJson(string id)
+        {
+            int i = 0;
+            if (int.TryParse(id, out i))
+            {
+                return GestionGarage.RechercheParId(i);
+            }
+            else
+            {
+                return null;
+            }
+
+
+        }
+
+        public List<Voiture> RechercheVoitureParCriterJson(string critere)
         {
             return GestionGarage.RechercheParCritere(critere);
         }

@@ -1,0 +1,6 @@
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppGarageManagement\bin\Debug\ConsoleAppGarageManagement.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppGarageManagement\bin\Debug\ConsoleAppGarageManagement.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppGarageManagement\bin\Debug\ConsoleAppGarageManagement.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppGarageManagement\obj\Debug\ConsoleAppGarageManagement.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppGarageManagement\obj\Debug\ConsoleAppGarageManagement.exe
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppGarageManagement\obj\Debug\ConsoleAppGarageManagement.pdb

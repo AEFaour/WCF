@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppInterAgitAvecPrem
 		{54E6A8F9-6E87-4636-B379-8B6C9BC3B87F} = {54E6A8F9-6E87-4636-B379-8B6C9BC3B87F}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppWebServiceMeteo", "WpfAppWebServiceMeteo\WpfAppWebServiceMeteo.csproj", "{24073068-C34D-4E72-899C-D86AAB28F80A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfWServiceAbonnes", "WcfWServiceAbonnes\WcfWServiceAbonnes.csproj", "{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClientAbonne", "ConsoleAppClientAbonne\ConsoleAppClientAbonne.csproj", "{2763DF20-93B2-4E74-B69D-B0BAFA66DA52}"
@@ -27,6 +25,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceGestionGarage", "WcfServiceGestionGarage\WcfServiceGestionGarage.csproj", "{05A98246-1295-4E99-B1E1-D6EB6B2D5513}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppGestionGarageManagement", "WpfAppGestionGarageManagement\WpfAppGestionGarageManagement.csproj", "{6245ED53-8874-4C5E-998F-E1565F704327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppGarageManagement", "ConsoleAppGarageManagement\ConsoleAppGarageManagement.csproj", "{9053B5FE-F0C2-4ACB-81F9-EA25D0D9E18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMeteoClient", "WpfAppMeteoClient\WpfAppMeteoClient.csproj", "{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,10 +60,6 @@ Global
 		{50F178B9-BCAC-4D97-8221-5A3223CF3BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F178B9-BCAC-4D97-8221-5A3223CF3BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50F178B9-BCAC-4D97-8221-5A3223CF3BE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24073068-C34D-4E72-899C-D86AAB28F80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24073068-C34D-4E72-899C-D86AAB28F80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24073068-C34D-4E72-899C-D86AAB28F80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24073068-C34D-4E72-899C-D86AAB28F80A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -78,6 +76,14 @@ Global
 		{6245ED53-8874-4C5E-998F-E1565F704327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6245ED53-8874-4C5E-998F-E1565F704327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6245ED53-8874-4C5E-998F-E1565F704327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9053B5FE-F0C2-4ACB-81F9-EA25D0D9E18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9053B5FE-F0C2-4ACB-81F9-EA25D0D9E18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9053B5FE-F0C2-4ACB-81F9-EA25D0D9E18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9053B5FE-F0C2-4ACB-81F9-EA25D0D9E18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

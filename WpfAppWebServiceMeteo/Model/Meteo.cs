@@ -6,28 +6,10 @@ using System.Threading.Tasks;
 
 namespace WpfAppWebServiceMeteo.Model
 {
+    // classe entité : on a juste besoin des proprétés
     public class Meteo
     {
-        private int _id;
-
-        public int Id
-        {
-            get { return _id; }
-            set { _id = value; }
-        }
-        private string dataVal;
-
-        public string DataVal
-        {
-            get { return dataVal; }
-            set { dataVal = value; }
-        }
-        private string descVal;
-
-        public string DescVal
-        {
-            get { return descVal; }
-            set { descVal = value; }
-        }
+        public int Id { get; set; }
+        public string Libelle { get; set; }
     }
 }

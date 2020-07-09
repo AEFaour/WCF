@@ -35,6 +35,7 @@ namespace WcfServiceMonPremierApp
 
         [OperationContract]
         decimal Division(int a, int b);
+
     }
 
 
