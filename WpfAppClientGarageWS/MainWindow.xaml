@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfAppClientGarageWS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppClientGarageWS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="445.751" Width="694.068" Background="#FFEC4A42" FontSize="16">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Height="32" TextWrapping="Wrap" Text="Gestion Garage"
+                   VerticalAlignment="Top" Width="686" FontSize="20" Foreground="#FF1B1B1D" TextAlignment="Center" Background="#FFC96641"/>
+        <Label Content="Marque" HorizontalAlignment="Left" Height="35" Margin="45,46,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Matricule" HorizontalAlignment="Left" Height="35" Margin="45,81,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label Content="Chassis" HorizontalAlignment="Left" Height="35" Margin="45,116,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Height="35" Margin="45,151,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Lien photo" HorizontalAlignment="Left" Height="35" Margin="444,199,0,0" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="txtMarq" Text="" HorizontalAlignment="Left" Height="35" Margin="155,44,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtMat" Text="" HorizontalAlignment="Left" Height="32" Margin="155,84,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtChassis" Text="" HorizontalAlignment="Left" Height="27" Margin="155,120,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtNom" Text="" HorizontalAlignment="Left" Height="34" Margin="155,152,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="167"/>
+        <Image x:Name="ingPhoto" 
+                Source="C:\Users\Anas FAOUR\Desktop\C# DotNet\Peugeot.jpg"
+               HorizontalAlignment="Left" Height="140" Margin="391,46,0,0" VerticalAlignment="Top" Width="249" Stretch="Fill"/>
+        <ListView  ItemsSource="{Binding Path=Voitures}" HorizontalAlignment="Left" Height="169" Margin="0,246,0,0" VerticalAlignment="Top" Width="686">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Marque}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Ajouter" HorizontalAlignment="Left" Height="29" Margin="155,199,0,0" VerticalAlignment="Top" Width="97" Click="AjoutVoiture_Click"/>
+
+    </Grid>
+</Window>

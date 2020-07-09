@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WSGarage" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:90/WSGarage.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:90/WSGarage.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:90/WSGarage.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceGestionGarage.Model" />
+      <xsd:import schemaLocation="http://localhost:90/WSGarage.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.ServiceModel.Syndication" />
+      <xsd:import schemaLocation="http://localhost:90/WSGarage.svc?xsd=xsd4" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWSGarage_AjoutVoitre_InputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutVoitre" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_AjoutVoitre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutVoitreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_SuppVoitureById_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuppVoitureById" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_SuppVoitureById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuppVoitureByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ModifVoiture_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifVoiture" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ModifVoiture_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifVoitureResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListVoitures_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoitures" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListVoitures_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_RechercheParCritere_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechercheParCritere" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_RechercheParCritere_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechercheParCritereResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListVoituresJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresJson" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListVoituresJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListVoituresXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresXML" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListVoituresXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListVoituresXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListeVoituresRSS_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListeVoituresRSS" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ListeVoituresRSS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListeVoituresRSSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_AjoutVoitureJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutVoitureJson" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_AjoutVoitureJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutVoitureJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ModifVoitureJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifVoitureJson" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_ModifVoitureJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifVoitureJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_RechercheVoitureParCriterJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechercheVoitureParCriterJson" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_RechercheVoitureParCriterJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechercheVoitureParCriterJsonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_RechercherVoitureParIdJson_InputMessage">
+    <wsdl:part name="parameters" element="tns:RechercherVoitureParIdJson" />
+  </wsdl:message>
+  <wsdl:message name="IWSGarage_RechercherVoitureParIdJson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RechercherVoitureParIdJsonResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWSGarage">
+    <wsdl:operation name="AjoutVoitre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/AjoutVoitre" message="tns:IWSGarage_AjoutVoitre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/AjoutVoitreResponse" message="tns:IWSGarage_AjoutVoitre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuppVoitureById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/SuppVoitureById" message="tns:IWSGarage_SuppVoitureById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/SuppVoitureByIdResponse" message="tns:IWSGarage_SuppVoitureById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifVoiture">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/ModifVoiture" message="tns:IWSGarage_ModifVoiture_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/ModifVoitureResponse" message="tns:IWSGarage_ModifVoiture_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListVoitures">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/ListVoitures" message="tns:IWSGarage_ListVoitures_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/ListVoituresResponse" message="tns:IWSGarage_ListVoitures_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechercheParCritere">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/RechercheParCritere" message="tns:IWSGarage_RechercheParCritere_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/RechercheParCritereResponse" message="tns:IWSGarage_RechercheParCritere_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListVoituresJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/ListVoituresJson" message="tns:IWSGarage_ListVoituresJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/ListVoituresJsonResponse" message="tns:IWSGarage_ListVoituresJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListVoituresXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/ListVoituresXML" message="tns:IWSGarage_ListVoituresXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/ListVoituresXMLResponse" message="tns:IWSGarage_ListVoituresXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListeVoituresRSS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/ListeVoituresRSS" message="tns:IWSGarage_ListeVoituresRSS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/ListeVoituresRSSResponse" message="tns:IWSGarage_ListeVoituresRSS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AjoutVoitureJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/AjoutVoitureJson" message="tns:IWSGarage_AjoutVoitureJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/AjoutVoitureJsonResponse" message="tns:IWSGarage_AjoutVoitureJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifVoitureJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/ModifVoitureJson" message="tns:IWSGarage_ModifVoitureJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/ModifVoitureJsonResponse" message="tns:IWSGarage_ModifVoitureJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechercheVoitureParCriterJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/RechercheVoitureParCriterJson" message="tns:IWSGarage_RechercheVoitureParCriterJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/RechercheVoitureParCriterJsonResponse" message="tns:IWSGarage_RechercheVoitureParCriterJson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RechercherVoitureParIdJson">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWSGarage/RechercherVoitureParIdJson" message="tns:IWSGarage_RechercherVoitureParIdJson_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWSGarage/RechercherVoitureParIdJsonResponse" message="tns:IWSGarage_RechercherVoitureParIdJson_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="WSGarage" />
+</wsdl:definitions>

@@ -7,8 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="#FFE89595">
     <Grid>
-        <Button Content="Afficher" HorizontalAlignment="Left" Margin="205,48,0,0" VerticalAlignment="Top" Width="145" Height="37" Click="DisV_Click" />
-        <ListBox x:Name="LBGarage" HorizontalAlignment="Left" Height="251" Margin="0,168,0,0" VerticalAlignment="Top" Width="792" Background="#FFF18888"/>
+        <Button Content="Ajouter" HorizontalAlignment="Left" Margin="51,290,0,0" 
+                VerticalAlignment="Top" Width="145" Height="37" Click="AjoutVoiture_Click" />
+        <TextBox x:Name="LBGarage" HorizontalAlignment="Center" Height="30" Text="Gestion Garage" VerticalAlignment="Top" Width="792" Background="#FFF7E5E5" TextAlignment="Center" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Marque" HorizontalAlignment="Left" Height="38" Margin="22,52,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Matricule" HorizontalAlignment="Left" Height="38" Margin="22,90,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="NumeroChassis" HorizontalAlignment="Left" Height="38" Margin="22,128,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Height="38" Margin="22,166,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Photo" HorizontalAlignment="Left" Height="38" Margin="338,56,0,0" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="txtMarque" HorizontalAlignment="Left" Height="22" Margin="148,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="txtMatricule" HorizontalAlignment="Left" Height="22" Margin="148,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="txtNumeroChassis"  HorizontalAlignment="Left" Height="22" Margin="148,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="txtNom"  HorizontalAlignment="Left" Height="22" Margin="148,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.667,0.409"/>
+        <Image x:Name="imgPhoto" HorizontalAlignment="Left" Height="148" Margin="482,56,0,0" VerticalAlignment="Top" Width="266" Source="/images/Citroen.jpg" Stretch="Fill"/>
+        <ListView ItemsSource="{Binding Path=Voitures}" HorizontalAlignment="Left" Height="62" Margin="34,347,0,0" VerticalAlignment="Top" Width="748">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Marque}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
 
     </Grid>
 </Window>

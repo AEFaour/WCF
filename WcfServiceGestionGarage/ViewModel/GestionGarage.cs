@@ -62,8 +62,6 @@ namespace WcfServiceGestionGarage.ViewModel
         public static Voiture RechercheParId(int id)
         {
             Voiture voitureRecherchee = dtc.Voitures.Where(x => x.Numero.Equals(id)).FirstOrDefault();
-            //dtc.Voitures.Find(voitureRecherchee);
-            //int _res = dtc.SaveChanges();
             return voitureRecherchee;
         }
 
@@ -72,7 +70,11 @@ namespace WcfServiceGestionGarage.ViewModel
             critere = critere.Trim().ToLower();
 
             var _result = from v in dtc.Voitures
-                          where (v.Numero.ToString().Contains(critere) || v.Nom.ToUpper().Contains(critere) || v.NumeroChassis.ToString().Contains(critere) || v.Marque.ToUpper().Contains(critere) || v.Photo.ToUpper().Contains(critere))
+                          where (v.Numero.ToString().Contains(critere)
+                          || v.Nom.ToUpper().Contains(critere)
+                          || v.NumeroChassis.ToString().Contains(critere)
+                          || v.Marque.ToUpper().Contains(critere)
+                          || v.Photo.ToUpper().Contains(critere))
                           select v;
 
             return _result.ToList();

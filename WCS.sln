@@ -30,6 +30,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppGarageManagement"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMeteoClient", "WpfAppMeteoClient\WpfAppMeteoClient.csproj", "{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceGarage", "WcfServiceGarage\WcfServiceGarage.csproj", "{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppClientGarageWS", "WpfAppClientGarageWS\WpfAppClientGarageWS.csproj", "{59AABD87-D013-4361-AB6C-759BD1B7C6F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC} = {17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +91,14 @@ Global
 		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9C5BC67-E167-4A55-9E0E-66C9AC77D175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

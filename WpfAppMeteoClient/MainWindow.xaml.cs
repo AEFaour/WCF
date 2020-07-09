@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfAppMeteoClient.Helper;
 using WpfAppMeteoClient.Model;
+using WpfAppMeteoClient.ServiceReference1;
 using WpfAppMeteoClient.VieModel;
 
 namespace WpfAppMeteoClient
@@ -39,6 +40,9 @@ namespace WpfAppMeteoClient
             textDataVal.Text = resultatMeteo.Datereleve;
             textValRes.Text = resultatMeteo.ValeurReleve;
             textDescVal.Text = resultatMeteo.DescriptifReleve;
+
+            //Service1Client client = new Service1Client();
+            //client.Get_Value(mesure.Id, out resultatMeteo.Datereleve, out resultatMeteo.DescriptifReleve);
         }
 
     }

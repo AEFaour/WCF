@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="15347083-dc37-48bd-8017-0bd87f81e720" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65242/WSGarage.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSGarage.xsd" MetadataType="Schema" ID="3b85c080-ab6f-4f8b-a2e1-075da035bd2d" SourceId="1" SourceUrl="http://localhost:65242/WSGarage.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSGarage1.xsd" MetadataType="Schema" ID="b5803edd-d26c-457b-9e0e-153242e1e315" SourceId="1" SourceUrl="http://localhost:65242/WSGarage.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSGarage.wsdl" MetadataType="Wsdl" ID="e38e05c9-2405-4fd9-89b1-59abe1758338" SourceId="1" SourceUrl="http://localhost:65242/WSGarage.svc?wsdl" />
+    <MetadataFile FileName="WSGarage2.xsd" MetadataType="Schema" ID="49a1208d-5530-4127-a0b5-692b67cb0e4b" SourceId="1" SourceUrl="http://localhost:65242/WSGarage.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSGarage.disco" MetadataType="Disco" ID="b16d39a1-a250-4f90-85c3-71091369f1d2" SourceId="1" SourceUrl="http://localhost:65242/WSGarage.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

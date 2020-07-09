@@ -16,8 +16,8 @@
         <TextBox x:Name="textValRes"  HorizontalAlignment="Left" Margin="214,196,0,21" Width="290"/>
         <Label Content="Choisir" HorizontalAlignment="Left" Height="27" Margin="94,21,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Date" HorizontalAlignment="Left" Height="27" Margin="94,76,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Item" HorizontalAlignment="Left" Height="27" Margin="94,152,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Resultat" HorizontalAlignment="Left" Height="27" Margin="94,207,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Item" HorizontalAlignment="Left" Height="27" Margin="94,141,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Resultat" HorizontalAlignment="Left" Height="27" Margin="89,196,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

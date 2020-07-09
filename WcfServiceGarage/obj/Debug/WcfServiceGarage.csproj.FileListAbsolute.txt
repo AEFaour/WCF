@@ -1,0 +1,13 @@
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\WcfServiceGarage.dll.config
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\WcfServiceGarage.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\WcfServiceGarage.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\EntityFramework.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\EntityFramework.SqlServer.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\EntityFramework.xml
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\EntityFramework.SqlServer.xml
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\bin\fr\EntityFramework.resources.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\obj\Debug\WcfServiceGarage.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\obj\Debug\WcfServiceGarage.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\obj\Debug\WcfServiceGarage.csproj.CopyComplete
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\obj\Debug\WcfServiceGarage.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGarage\obj\Debug\WcfServiceGarage.pdb

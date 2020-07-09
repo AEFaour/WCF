@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WcfServiceGestionGarage.WSGarage" CodeBehind="WSGarage.svc.cs" %>

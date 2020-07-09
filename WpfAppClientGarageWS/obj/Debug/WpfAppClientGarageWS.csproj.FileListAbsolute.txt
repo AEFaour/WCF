@@ -1,0 +1,15 @@
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\bin\Debug\WpfAppClientGarageWS.exe.config
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\bin\Debug\WpfAppClientGarageWS.exe
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\bin\Debug\WpfAppClientGarageWS.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\MainWindow.g.cs
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\App.g.cs
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS_MarkupCompile.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS_MarkupCompile.lref
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\MainWindow.baml
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.g.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.Properties.Resources.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.csproj.GenerateResource.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.csproj.CoreCompileInputs.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.exe
+C:\Users\Anas FAOUR\source\repos\WCS\WpfAppClientGarageWS\obj\Debug\WpfAppClientGarageWS.pdb

@@ -139,106 +139,106 @@ namespace WpfAppGestionGarageManagement.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IService1")]
-    public interface IService1 {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IWSGarage")]
+    public interface IWSGarage {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/AjoutVoitre", ReplyAction="http://tempuri.org/IService1/AjoutVoitreResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/AjoutVoitre", ReplyAction="http://tempuri.org/IWSGarage/AjoutVoitreResponse")]
         int AjoutVoitre(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/AjoutVoitre", ReplyAction="http://tempuri.org/IService1/AjoutVoitreResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/AjoutVoitre", ReplyAction="http://tempuri.org/IWSGarage/AjoutVoitreResponse")]
         System.Threading.Tasks.Task<int> AjoutVoitreAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/SuppVoitureById", ReplyAction="http://tempuri.org/IService1/SuppVoitureByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/SuppVoitureById", ReplyAction="http://tempuri.org/IWSGarage/SuppVoitureByIdResponse")]
         bool SuppVoitureById(int id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/SuppVoitureById", ReplyAction="http://tempuri.org/IService1/SuppVoitureByIdResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/SuppVoitureById", ReplyAction="http://tempuri.org/IWSGarage/SuppVoitureByIdResponse")]
         System.Threading.Tasks.Task<bool> SuppVoitureByIdAsync(int id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModifVoiture", ReplyAction="http://tempuri.org/IService1/ModifVoitureResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ModifVoiture", ReplyAction="http://tempuri.org/IWSGarage/ModifVoitureResponse")]
         bool ModifVoiture(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModifVoiture", ReplyAction="http://tempuri.org/IService1/ModifVoitureResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ModifVoiture", ReplyAction="http://tempuri.org/IWSGarage/ModifVoitureResponse")]
         System.Threading.Tasks.Task<bool> ModifVoitureAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoitures", ReplyAction="http://tempuri.org/IService1/ListVoituresResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListVoitures", ReplyAction="http://tempuri.org/IWSGarage/ListVoituresResponse")]
         WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoitures();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoitures", ReplyAction="http://tempuri.org/IService1/ListVoituresResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListVoitures", ReplyAction="http://tempuri.org/IWSGarage/ListVoituresResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheParCritere", ReplyAction="http://tempuri.org/IService1/RechercheParCritereResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/RechercheParCritere", ReplyAction="http://tempuri.org/IWSGarage/RechercheParCritereResponse")]
         WpfAppGestionGarageManagement.ServiceReference1.Voiture[] RechercheParCritere(string critere);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheParCritere", ReplyAction="http://tempuri.org/IService1/RechercheParCritereResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/RechercheParCritere", ReplyAction="http://tempuri.org/IWSGarage/RechercheParCritereResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> RechercheParCritereAsync(string critere);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresJson", ReplyAction="http://tempuri.org/IService1/ListVoituresJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListVoituresJson", ReplyAction="http://tempuri.org/IWSGarage/ListVoituresJsonResponse")]
         WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoituresJson();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresJson", ReplyAction="http://tempuri.org/IService1/ListVoituresJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListVoituresJson", ReplyAction="http://tempuri.org/IWSGarage/ListVoituresJsonResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresJsonAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresXML", ReplyAction="http://tempuri.org/IService1/ListVoituresXMLResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListVoituresXML", ReplyAction="http://tempuri.org/IWSGarage/ListVoituresXMLResponse")]
         WpfAppGestionGarageManagement.ServiceReference1.Voiture[] ListVoituresXML();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListVoituresXML", ReplyAction="http://tempuri.org/IService1/ListVoituresXMLResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListVoituresXML", ReplyAction="http://tempuri.org/IWSGarage/ListVoituresXMLResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> ListVoituresXMLAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListeVoituresRSS", ReplyAction="http://tempuri.org/IService1/ListeVoituresRSSResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListeVoituresRSS", ReplyAction="http://tempuri.org/IWSGarage/ListeVoituresRSSResponse")]
         System.ServiceModel.Syndication.Rss20FeedFormatter ListeVoituresRSS();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListeVoituresRSS", ReplyAction="http://tempuri.org/IService1/ListeVoituresRSSResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ListeVoituresRSS", ReplyAction="http://tempuri.org/IWSGarage/ListeVoituresRSSResponse")]
         System.Threading.Tasks.Task<System.ServiceModel.Syndication.Rss20FeedFormatter> ListeVoituresRSSAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/AjoutVoitureJson", ReplyAction="http://tempuri.org/IService1/AjoutVoitureJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/AjoutVoitureJson", ReplyAction="http://tempuri.org/IWSGarage/AjoutVoitureJsonResponse")]
         int AjoutVoitureJson(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/AjoutVoitureJson", ReplyAction="http://tempuri.org/IService1/AjoutVoitureJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/AjoutVoitureJson", ReplyAction="http://tempuri.org/IWSGarage/AjoutVoitureJsonResponse")]
         System.Threading.Tasks.Task<int> AjoutVoitureJsonAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModifVoitureJson", ReplyAction="http://tempuri.org/IService1/ModifVoitureJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ModifVoitureJson", ReplyAction="http://tempuri.org/IWSGarage/ModifVoitureJsonResponse")]
         bool ModifVoitureJson(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ModifVoitureJson", ReplyAction="http://tempuri.org/IService1/ModifVoitureJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/ModifVoitureJson", ReplyAction="http://tempuri.org/IWSGarage/ModifVoitureJsonResponse")]
         System.Threading.Tasks.Task<bool> ModifVoitureJsonAsync(WpfAppGestionGarageManagement.ServiceReference1.Voiture voiture);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheVoitureParCriterJson", ReplyAction="http://tempuri.org/IService1/RechercheVoitureParCriterJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/RechercheVoitureParCriterJson", ReplyAction="http://tempuri.org/IWSGarage/RechercheVoitureParCriterJsonResponse")]
         WpfAppGestionGarageManagement.ServiceReference1.Voiture[] RechercheVoitureParCriterJson(string critere);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercheVoitureParCriterJson", ReplyAction="http://tempuri.org/IService1/RechercheVoitureParCriterJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/RechercheVoitureParCriterJson", ReplyAction="http://tempuri.org/IWSGarage/RechercheVoitureParCriterJsonResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture[]> RechercheVoitureParCriterJsonAsync(string critere);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercherVoitureParIdJson", ReplyAction="http://tempuri.org/IService1/RechercherVoitureParIdJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/RechercherVoitureParIdJson", ReplyAction="http://tempuri.org/IWSGarage/RechercherVoitureParIdJsonResponse")]
         WpfAppGestionGarageManagement.ServiceReference1.Voiture RechercherVoitureParIdJson(string id);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/RechercherVoitureParIdJson", ReplyAction="http://tempuri.org/IService1/RechercherVoitureParIdJsonResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWSGarage/RechercherVoitureParIdJson", ReplyAction="http://tempuri.org/IWSGarage/RechercherVoitureParIdJsonResponse")]
         System.Threading.Tasks.Task<WpfAppGestionGarageManagement.ServiceReference1.Voiture> RechercherVoitureParIdJsonAsync(string id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : WpfAppGestionGarageManagement.ServiceReference1.IService1, System.ServiceModel.IClientChannel {
+    public interface IWSGarageChannel : WpfAppGestionGarageManagement.ServiceReference1.IWSGarage, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<WpfAppGestionGarageManagement.ServiceReference1.IService1>, WpfAppGestionGarageManagement.ServiceReference1.IService1 {
+    public partial class WSGarageClient : System.ServiceModel.ClientBase<WpfAppGestionGarageManagement.ServiceReference1.IWSGarage>, WpfAppGestionGarageManagement.ServiceReference1.IWSGarage {
         
-        public Service1Client() {
+        public WSGarageClient() {
         }
         
-        public Service1Client(string endpointConfigurationName) : 
+        public WSGarageClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public Service1Client(string endpointConfigurationName, string remoteAddress) : 
+        public WSGarageClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Service1Client(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public WSGarageClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Service1Client(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public WSGarageClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         

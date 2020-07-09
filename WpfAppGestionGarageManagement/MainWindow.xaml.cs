@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfAppGestionGarageManagement.ServiceReference1;
+using WpfAppGestionGarageManagement.ViewModel;
 
 namespace WpfAppGestionGarageManagement
 {
@@ -21,21 +22,28 @@ namespace WpfAppGestionGarageManagement
     /// </summary>
     public partial class MainWindow : Window
     {
+        GestionVoiture gestionVoiture = new GestionVoiture();
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = gestionVoiture;
         }
-        private static List<Voiture> ListVoitures()
+
+
+        private void AjoutVoiture_Click(object sender, RoutedEventArgs e)
         {
-            Service1Client cli = new Service1Client();
-            var res = cli.ListVoitures();
-            cli.Close();
-            return res.ToList();
-        }
-        private void DisV_Click(object sender, RoutedEventArgs e)
-        {
-            var _voitures = ListVoitures();
-            LBGarage.ItemsSource = _voitures;
+            Voiture v = new Voiture();
+            v.Nom = txtNom.Text;
+            v.Marque = txtMarque.Text;
+            v.Matricule = txtMatricule.Text;
+            v.NumeroChassis = int.Parse(txtNumeroChassis.Text);
+
+            int i = GestionVoiture.ajoutVoiture(v);
+            if (i > 0)
+            {
+                txtNumeroChassis.Text = ""; txtMarque.Text = ""; txtNom.Text = ""; txtMatricule.Text = "";
+            }
+
         }
     }
 }
