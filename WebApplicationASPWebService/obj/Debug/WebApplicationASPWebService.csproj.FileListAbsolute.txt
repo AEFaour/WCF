@@ -83,6 +83,7 @@ C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\System.Web.
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\Antlr3.Runtime.pdb
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\EntityFramework.resources.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\EntityFramework.SqlServer.resources.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.Net.Http.Formatting.resources.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.Web.Helpers.resources.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.Web.Http.resources.dll
@@ -93,10 +94,11 @@ C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.W
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.Web.WebPages.resources.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csprojAssemblyReference.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.Migrations.InitialCreate.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.Migrations.Annotation.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csproj.GenerateResource.cache
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csproj.CoreCompileInputs.cache
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csproj.CopyComplete
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.pdb
-C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.Migrations.InitialCreate.resources
-C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csproj.GenerateResource.cache
-C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.Migrations.Annotation.resources

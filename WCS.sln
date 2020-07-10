@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppClientGarageWS", "Wpf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationASPWebService", "WebApplicationASPWebService\WebApplicationASPWebService.csproj", "{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppASPClientJson", "ConsoleAppASPClientJson\ConsoleAppASPClientJson.csproj", "{12D54241-5199-48B1-93CA-28103CEA74DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D54241-5199-48B1-93CA-28103CEA74DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D54241-5199-48B1-93CA-28103CEA74DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D54241-5199-48B1-93CA-28103CEA74DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D54241-5199-48B1-93CA-28103CEA74DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,6 +19,7 @@ namespace WebApplicationASPWebService.Controllers
         /// 
         /// </summary>
         /// <returns>liste abonnés</returns>
+        [HttpGet]
         public IEnumerable<Abonne> GetAbonnes()
         {
             return _DbContext.Abonnes.ToList();
@@ -32,7 +33,7 @@ namespace WebApplicationASPWebService.Controllers
         /// </summary>
         /// <param name="id">Abonne cherché ou HTTP not found</param>
         /// <returns></returns>
-
+        [HttpGet]
         public Abonne GetAbonne(int id)
         {
             Abonne abonne = _DbContext.Abonnes.SingleOrDefault(x => x.Numero == id);

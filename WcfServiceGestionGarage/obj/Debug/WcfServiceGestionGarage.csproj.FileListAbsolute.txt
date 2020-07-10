@@ -6,6 +6,7 @@ C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\bin\EntityFramework
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\bin\EntityFramework.xml
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\bin\EntityFramework.SqlServer.xml
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\bin\fr\EntityFramework.resources.dll
+C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\bin\fr\EntityFramework.SqlServer.resources.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\obj\Debug\WcfServiceGestionGarage.csprojAssemblyReference.cache
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\obj\Debug\WcfServiceGestionGarage.csproj.CoreCompileInputs.cache
 C:\Users\Anas FAOUR\source\repos\WCS\WcfServiceGestionGarage\obj\Debug\WcfServiceGestionGarage.csproj.CopyComplete
