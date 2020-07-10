@@ -97,3 +97,6 @@ C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebAp
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csproj.CopyComplete
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.dll
 C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.Migrations.InitialCreate.resources
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.csproj.GenerateResource.cache
+C:\Users\Anas FAOUR\source\repos\WCS\WebApplicationASPWebService\obj\Debug\WebApplicationASPWebService.Migrations.Annotation.resources

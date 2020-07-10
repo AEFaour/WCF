@@ -15,6 +15,7 @@ namespace WebApplicationASPWebService.Models
         [DataType(DataType.Text)]
         public string Prenom { get; set; }
         [DataType(DataType.EmailAddress)]
+        //[RegularExpression(@"^\w")]
         public string Mail { get; set; }
         [Required]
         [DataType(DataType.PhoneNumber)]

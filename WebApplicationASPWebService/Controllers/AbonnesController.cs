@@ -47,8 +47,11 @@ namespace WebApplicationASPWebService.Controllers
         [HttpPost]
         public Abonne AjoutAbonne(Abonne abonne)
         {
-            //if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+
             _DbContext.Abonnes.Add(abonne);
+
             if (_DbContext.SaveChanges() > 0) return abonne;
             else
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
