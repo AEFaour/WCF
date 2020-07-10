@@ -120,6 +120,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="image\Peugeot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
   </ItemGroup>
   <ItemGroup>
@@ -136,9 +139,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="image\Peugeot.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

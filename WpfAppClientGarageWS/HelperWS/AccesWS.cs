@@ -26,7 +26,7 @@ namespace WpfAppClientGarageWS.HelperWS
             {
                 // Retourne une Exception : Propager l'exception 
                 //
-                throw new Exception(" Erreur d'acces à la méthode GetVoiture du WS");
+                throw new Exception(" Erreur d'acces à la méthode GetVoiture du WS " + e.Message);
 
                 // MessageBox.Show("Probleme de WS"); // On gère l'exception
 
@@ -41,14 +41,13 @@ namespace WpfAppClientGarageWS.HelperWS
             int ret = -1;
             try
             {
-
                 WSGarageClient client = new WSGarageClient();
                 ret = client.AjoutVoiture(voiture);
                 client.Close();
             }
             catch (Exception e)
             {
-                MessageBox.Show("Echec - Ajout via le WS");
+                MessageBox.Show("Echec - Ajout via le WS " + e.Message);
             }
             return ret;
         }

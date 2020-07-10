@@ -20,8 +20,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppInterAgitAvecPrem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfWServiceAbonnes", "WcfWServiceAbonnes\WcfWServiceAbonnes.csproj", "{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClientAbonne", "ConsoleAppClientAbonne\ConsoleAppClientAbonne.csproj", "{2763DF20-93B2-4E74-B69D-B0BAFA66DA52}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceGestionGarage", "WcfServiceGestionGarage\WcfServiceGestionGarage.csproj", "{05A98246-1295-4E99-B1E1-D6EB6B2D5513}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppGarageManagement", "ConsoleAppGarageManagement\ConsoleAppGarageManagement.csproj", "{9053B5FE-F0C2-4ACB-81F9-EA25D0D9E18E}"
@@ -34,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppClientGarageWS", "Wpf
 	ProjectSection(ProjectDependencies) = postProject
 		{17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC} = {17F8CDA5-BBCD-4916-ADF1-C12F32CDC3EC}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationASPWebService", "WebApplicationASPWebService\WebApplicationASPWebService.csproj", "{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,10 +69,6 @@ Global
 		{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA1C8AD-B721-4B67-BD44-24DB77CDADB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2763DF20-93B2-4E74-B69D-B0BAFA66DA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2763DF20-93B2-4E74-B69D-B0BAFA66DA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2763DF20-93B2-4E74-B69D-B0BAFA66DA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2763DF20-93B2-4E74-B69D-B0BAFA66DA52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05A98246-1295-4E99-B1E1-D6EB6B2D5513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05A98246-1295-4E99-B1E1-D6EB6B2D5513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A98246-1295-4E99-B1E1-D6EB6B2D5513}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -93,6 +89,10 @@ Global
 		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59AABD87-D013-4361-AB6C-759BD1B7C6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4459EDE-0C2D-4DBE-81EC-4BE3F7FACC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\bin\Debug\ConsoleAppTachesAsynchrone.exe.config
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\bin\Debug\ConsoleAppTachesAsynchrone.exe
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\bin\Debug\ConsoleAppTachesAsynchrone.pdb
+C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\obj\Debug\ConsoleAppTachesAsynchrone.csprojAssemblyReference.cache
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\obj\Debug\ConsoleAppTachesAsynchrone.csproj.CoreCompileInputs.cache
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\obj\Debug\ConsoleAppTachesAsynchrone.exe
 C:\Users\Anas FAOUR\source\repos\WCS\ConsoleAppTachesAsynchrone\obj\Debug\ConsoleAppTachesAsynchrone.pdb
